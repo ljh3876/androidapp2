@@ -98,14 +98,13 @@
 
         <TextView
             android:text="주문개수"
-            android:layout_width="wrap_content"
+            android:layout_width="234dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView9"
-            android:layout_weight="1" />
+            android:layout_weight="198.60" />
 
         <TextView
-
-            android:layout_width="wrap_content"
+            android:layout_width="108dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView_num"
             android:layout_weight="1" />
@@ -121,11 +120,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView10"
-            android:layout_weight="1" />
+            android:layout_weight="198.60" />
 
         <TextView
 
-            android:layout_width="wrap_content"
+            android:layout_width="108dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView_price"
             android:layout_weight="1" />

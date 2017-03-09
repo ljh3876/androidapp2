@@ -1,5 +1,6 @@
 package com.example.jinhwan.myapplication;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent3);
             }
         });
+
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,6 +57,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent4);
             }
         });
-
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent(MainActivity.this, Main6Activity.class);
+                startActivity(intent5);
+            }
+        });
     }
+
 }
