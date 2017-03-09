@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_main3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,35 +9,45 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jinhwan.myapplication.MainActivity">
+    tools:context="com.example.jinhwan.myapplication.Main3Activity">
 
-    <Button
-        android:text="사과가격 계산하기"
+    <TextView
+        android:text="태어난 년도를 입력하세요"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn1" />
+        android:id="@+id/textView4" />
 
-    <Button
-        android:text="나이 계산기"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn2" />
+        android:inputType="textPersonName"
+        android:hint="숫자를 입력하세요"
+        android:ems="10"
+        android:id="@+id/editText" />
 
     <Button
-        android:text="온도계산기"
+        android:text="나이계산"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn3" />
+        android:id="@+id/button" />
+
+    <TextView
+        android:text="나이를 입력하세요"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="숫자를 입력하세요"
+        android:ems="10"
+        android:id="@+id/editText2" />
 
     <Button
-        android:text="레스토랑 메뉴 주문"
+        android:text="태어난해 계산"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn4" />
-
-    <Button
-        android:text="계산기"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn5" />
+        android:id="@+id/button2" />
 </LinearLayout>

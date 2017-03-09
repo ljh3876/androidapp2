@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_main2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,35 +9,40 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jinhwan.myapplication.MainActivity">
+    tools:context="com.example.jinhwan.myapplication.Main2Activity"
+    android:background="@android:color/background_light">
 
-    <Button
-        android:text="사과가격 계산하기"
+    <TextView
+        android:text="사과의 가격은?"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn1" />
+        android:id="@+id/textView" />
 
-    <Button
-        android:text="나이 계산기"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn2" />
+        android:inputType="textPersonName"
+        android:hint="숫자를 입력"
+        android:ems="10"
+        android:id="@+id/editText" />
 
-    <Button
-        android:text="온도계산기"
+    <TextView
+        android:text="사과의 갯수는?"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn3" />
+        android:id="@+id/textView2" />
 
-    <Button
-        android:text="레스토랑 메뉴 주문"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn4" />
+        android:inputType="textPersonName"
+        android:hint="숫자를 입력"
+        android:ems="10"
+        android:id="@+id/editText2" />
 
     <Button
-        android:text="계산기"
+        android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn5" />
+        android:id="@+id/button" />
 </LinearLayout>
